@@ -1,158 +1,107 @@
 html,
 body {
     margin: 0px;
-    width: 100%;
+    /* width: 100%; */
 }
 
-
-
-
-/* Navbar */
-
-.navbar {
-    width: 100%;
-    background-color: white;
-    display: block;
-}
-
-.navbar-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.nav-menu {
-    /* background-color: blue; */
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin-left: auto;
-    padding-right: 10px;
-}
-
-.nav-menu li {
-    list-style: none;
-    float: left;
-    padding-left: 40px;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-icon {
-    padding-top: 5px;
-    height: 70px;
-}
-
-
-/* Navbar ends */
-
+/* pretty colors
+EF3A25s */
 
 /* Body */
-
-.body1 {
-    width: 100%;
-    width: 100%;
+.mybody{
+    background-color: #2A363B;
     height: 100vh;
-    position: relative;
-
-}
-
-.body-img {
-    object-fit: cover;
-    
-    width: 100%;
-    height: 100vh; 
-}
-
-.tag
-{
-    /* background-color: aqua; */
-       position: absolute;
-       /* left: 0px;
-       top: 0px; */
-       /* z-index: 1000; */
-       /* background-color: #92AD40;
-       padding: 5px;*/
-        color: #FFFFFF; 
-       /*font-weight: bold; */
-       width: 100%;
-       display: flex;
-       flex-direction: row;
-       margin-right: auto;
-       margin-left: auto;
-       justify-content: center;
-       align-items: center;
-       
-       /* padding-top: ; */
-}
-
-.body1-container
-{
-    width: 80%;
-    max-width: 1500px;
-    /* background-color: black; */
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-
-.body1-container h1 {
-
-    border:5px solid yellow ;
-    padding: 10px;
-    text-align: left;
-    margin-bottom: 5px;
-    font-size: 55px;
-}
-
-.body1-container .subtittle {
-    margin-top: 5px;
-    text-align: left;
-    border: 5px solid gray;
-    font-size: 55px;
-    font-weight: bold;
-}
-
-.body1-container-btn
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* row-gap: 25px; */
-    flex-direction: row;
-    
-}
-
-.btn-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 100%;
-    max-width: 500px;
-    margin-top: 100px;
+    
+    
+    
     
 }
 
-.btn-projects
+
+/* Navbar Style */
+.mynavbar
 {
-    border: none;
-     
+    /* background-color: aliceblue; */
+    /* height: 70px; */
+    width: 100%;
+    position: relative;
 }
 
-.btn-resume
-{
-    /* margin-right: auto; */
+.mynavbar-content
+{   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    margin-left: auto;  
+    margin-right:auto; 
+    height:70px;
+    width: 80%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    /* background-color:darkblue; */
+    
     
 }
+
+.mynavbar-content-left {
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+
+
+.mynavbar-content-right{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.mynavbar-content-right li {
+    list-style: none;
+    padding-left: 40px;
+    float: left;
+   
+}
+
+.mynavbar-content-right a {
+    text-decoration: none;
+    color: White;
+}
+/* Navbar End */
+
+/* Tittles */
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    /* background-color: darkgrey; */
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 100vh;
+}
+
+.container-text > h1{
+    color: white;
+}
+
+.container-text > p
+{
+    color: white;
+}
+
+.btn-container
+{
+    
+}
+
