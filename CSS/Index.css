@@ -124,3 +124,35 @@ body {
     font-size: 55px;
     font-weight: bold;
 }
+
+.body1-container-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* row-gap: 25px; */
+    flex-direction: row;
+    
+}
+
+.btn-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 100px;
+    
+}
+
+.btn-projects
+{
+    border: none;
+     
+}
+
+.btn-resume
+{
+    /* margin-right: auto; */
+    
+}
