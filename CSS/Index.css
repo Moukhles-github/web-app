@@ -9,7 +9,7 @@ EF3A25s */
 
 /* Body */
 .mybody{
-    background-color: #2A363B;
+    background-color: white;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ EF3A25s */
 
 .mynavbar-content-right a {
     text-decoration: none;
-    color: White;
+    color: black;
 }
 /* Navbar End */
 
@@ -82,26 +82,52 @@ EF3A25s */
     flex-direction: column;
     position: absolute;
     width: 100%;
-    /* background-color: darkgrey; */
     justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    
     height: 100vh;
 }
 
+
+.container-text
+{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .container-text > h1{
-    color: white;
+    color: black;
 }
 
 .container-text > p
 {
-    color: white;
-}
-
-.btn-container
-{
+    color:black;
+    padding: 20px 0px;
     
 }
 
+.buttons
+{
+    
+    width:100%;
+    
+    
+}
+
+
+.btn-container
+{   
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    max-width: 50%;
+    background-color: darkred;
+    padding: 30px 0px;
+}
+
+.about
+{
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+}
