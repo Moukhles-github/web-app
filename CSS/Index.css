@@ -2,6 +2,7 @@ html,
 body {
     margin: 0px;
     /* width: 100%; */
+    
 }
 
 /* pretty colors
@@ -14,10 +15,7 @@ EF3A25s */
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-    
-    
-    
+    /* border-left:5px solid black; */
 }
 
 
@@ -42,6 +40,7 @@ EF3A25s */
     width: 80%;
     padding-top:10px;
     padding-bottom: 10px;
+    
     /* background-color:darkblue; */
     
     
@@ -60,6 +59,8 @@ EF3A25s */
     justify-content: center;
     align-items: center;
     margin-right: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1em;
 }
 .mynavbar-content-right li {
     list-style: none;
@@ -73,6 +74,14 @@ EF3A25s */
     color: black;
 }
 /* Navbar End */
+.left-column{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: red;
+}
+
+
 
 /* Tittles */
 
@@ -80,8 +89,8 @@ EF3A25s */
 {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
     justify-content: center;
     height: 100vh;
 }
@@ -95,12 +104,17 @@ EF3A25s */
 }
 .container-text > h1{
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    
 }
 
 .container-text > p
 {
     color:black;
+    font-size: 45px;
     padding: 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -120,14 +134,56 @@ EF3A25s */
     margin-right: auto;
     margin-left: auto;
     justify-content: space-evenly;
-    max-width: 50%;
-    background-color: darkred;
+    
+    max-width: 1000px;
+    /* background-color: darkred; */
     padding: 30px 0px;
+    
+}
+
+.btn-resume
+{
+    padding: 15px 40px;
+    border: none; 
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    
+    
+    
+}
+
+.btn-work
+{
+    padding: 15px 29px;
+    border: none; 
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    
 }
 
 .about
 {
     width: 100%;
     height: 700px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.img-container
+{
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container > a > img{
+    max-width: 100px;
 }
