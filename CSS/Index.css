@@ -64,7 +64,7 @@ EF3A25s */
 }
 .mynavbar-content-right li {
     list-style: none;
-    padding-left: 40px;
+    padding-left: 10px;
     float: left;
    
 }
@@ -72,6 +72,17 @@ EF3A25s */
 .mynavbar-content-right a {
     text-decoration: none;
     color: black;
+    padding: 12px 20px;
+    
+}
+
+
+.mynavbar-content-right a:hover{
+    color:red;
+}
+
+.mynavbar-content-right a.active{
+background-color: red;
 }
 /* Navbar End */
 .left-column{
