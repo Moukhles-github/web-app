@@ -12,7 +12,7 @@ EF3A25s */
 /* Body */
 
 .mybody {
-    background-color: white;
+    background-color: #fff5d7;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ EF3A25s */
     /* height: 70px; */
     width: 100%;
     position: fixed;
-    background-color: white;
+    background-color: #fff5d7;
     z-index: 11;
 }
 
@@ -223,6 +223,7 @@ EF3A25s */
 }
 
 .tools-section {
+    background-color: #f8f8f8;
     width: 100%;
     height: 700px;
 }
@@ -244,5 +245,47 @@ EF3A25s */
     width: 100%;
     margin: 20px;
     box-shadow: 10px 10px gray;
+    background-color:wheat;
     padding: 10px;
+}
+
+.tbox1
+{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: center;
+
+}
+
+
+
+
+.tbox-title > h1{
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.webdev-img
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 150px;
+    width: 100%;
+}
+
+.tbox-body > p 
+{
+    
+    font-family:'Courier New', Courier, monospace ;
+
+}
+
+.tbox-footer 
+{
+    font-size: 18px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
