@@ -12,11 +12,12 @@ EF3A25s */
 /* Body */
 
 .mybody {
-    background-color: #fff5d7;
+    background-color: #f7f7f7;
     height: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
+    justify-content: center;
     /* border-left:5px solid black; */
 }
 
@@ -28,8 +29,9 @@ EF3A25s */
     /* height: 70px; */
     width: 100%;
     position: fixed;
-    background-color: #fff5d7;
+    background-color: #f7f7f7;
     z-index: 11;
+   
 }
 
 .mynavbar-content {
@@ -79,19 +81,19 @@ EF3A25s */
 }
 
 .mynavbar-content-right a.active {
-    background-color: red;
+    outline: 2px solid red;
 }
 
 
 /* Navbar End */
 
-.left-column {
+/* .left-column {
     position: absolute;
     height: 100vh;
     width: 5px;
     background-color: red;
     /* z-index: 9999; */
-}
+
 
 
 /* Tittles */
@@ -103,6 +105,8 @@ EF3A25s */
     /* width: 100%; */
     justify-content: center;
     height: 100vh;
+    
+    
 }
 
 .container-text {
@@ -166,12 +170,16 @@ EF3A25s */
 }
 
 .img-container {
-    display: flex;
+    
+    height:auto;
     /* height: 100vh; */
+    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    
+    
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .img-container>a>img {
@@ -191,10 +199,10 @@ EF3A25s */
 }
 
 .about-content {
-    text-align: center;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     z-index: 10;
 }
 
@@ -202,12 +210,15 @@ EF3A25s */
     font-size: 3em;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .about-text>p {
-    font-size: 1.5em;
-    color: white;
+   
+    font-size: 1.3em;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 35px;
 }
 
 .col-right {
@@ -215,15 +226,15 @@ EF3A25s */
     width: 100%;
 }
 
-.abt-right-col {
+/* .abt-right-col {
     width: 5px;
     height: 600px;
     background-color: red;
     margin-left: auto;
-}
+} */
 
 .tools-section {
-    background-color: #f8f8f8;
+    background-color: #f7f7f7;
     width: 100%;
     height: 700px;
 }
@@ -301,7 +312,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 {
     display: flex;
     flex-direction: column;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 
 
 }
@@ -381,8 +392,10 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 {
     display: flex;
     flex-direction:row;
-    justify-content: ;
+    
 }
+
+
 
 
 
