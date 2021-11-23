@@ -1,33 +1,27 @@
 html,
 body {
     margin: 0px;
-    background-color: black;
-    /* width: 100%; */
-}
-
-
-/* pretty colors
-EF3A25s */
-
-
-/* Body */
-
-.mybody {
     background-color: #f7f7f7;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    /* border-left:5px solid black; */
+  
 }
+
+
+/* colors */
+
+/* background : #f7f7f7 */
+/* containers: wheat */
+/* tittle : #152B4A */
+/* subtitle - text : #1E3D69 */
+
+
+
+
 
 
 /* Navbar Style */
 
 .mynavbar {
-    /* background-color: aliceblue; */
-    /* height: 70px; */
+   
     width: 100%;
     position: fixed;
     background-color: #f7f7f7;
@@ -47,7 +41,6 @@ EF3A25s */
     width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* background-color:darkblue; */
 }
 
 .mynavbar-content-left {
@@ -79,7 +72,7 @@ EF3A25s */
 }
 
 .mynavbar-content-right a:hover {
-    /* color:indianred; */
+  
     outline: 2px solid #152B4A;
     box-shadow: 5px 5px gray;
     
@@ -91,24 +84,22 @@ EF3A25s */
 }
 
 
-/* Navbar End */
+/* Body */
 
-/* .left-column {
-    position: absolute;
+.mybody {
+
     height: 100vh;
-    width: 5px;
-    background-color: red;
-    /* z-index: 9999; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
 
-
-
-/* Tittles */
 
 .container {
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
-    /* width: 100%; */
+
     justify-content: center;
     height: 100vh;
     
@@ -120,12 +111,6 @@ EF3A25s */
     margin-right: auto;
     margin-left: auto;
 }
-
-/* subtitle - text : #1E3D69 */
-/* tittle : #152B4A */
-
-
-
 
 .container-text>h1 {
     color: #152B4A;
@@ -151,7 +136,7 @@ EF3A25s */
     margin-left: auto;
     justify-content: space-evenly;
     max-width: 1000px;
-    /* background-color: darkred; */
+    
     padding: 30px 0px;
 }
 
@@ -172,11 +157,12 @@ EF3A25s */
     outline: 2px solid black;
     color: #1E3D69;
     cursor: pointer;
-    /* background-color: wheat; */
+   
     
 
 
 }
+
 .btn-resume {
     padding: 15px 40px;
     border: none;
@@ -188,12 +174,6 @@ EF3A25s */
     
 }
 
-
-
-
-
-
-
 .btn-work {
     padding: 15px 29px;
     border: none;
@@ -204,16 +184,11 @@ EF3A25s */
     letter-spacing: 0.1em;
 }
 
-.about {
-    width: 100%;
-    height: 700px;
-    /* border: 2px solid black; */
-}
 
 .img-container {
     
     height:auto;
-    /* height: 100vh; */
+    
     display: flex;
     flex-direction: column;
     
@@ -232,26 +207,24 @@ EF3A25s */
 
 .about-section {
     display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 800px;
     background-color: #f7f7f7;
     justify-content: center;
-    /* padding: 10px; */
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 
 .about-content {
 
-    
+    width: 80%;
     text-align: justify;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 500px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     flex-wrap: nowrap;
-    max-width: 950px;
+    max-width: 1080px;
     z-index: 10;
     background-color: wheat;
     outline: 2px solid black;
@@ -276,162 +249,38 @@ EF3A25s */
     padding: 20px;
 }
 
-/* tools section  */
 
-.tools-section {
-    background-color: #f7f7f7;
-    width: 100%;
-    height: 700px;
-}
+/* tools section */
 
-.tbox-container {
-    display: flex;
-    max-width: 1500px;
-    height: 100%;
+.skills-section
+{
+
     
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
 }
 
-.tbox-container .tbox {
-    height: 600px;
-    border: 2px solid black;
-    width: 100%;
-    margin: 20px;
+.skills-container
+{
+ max-width: 1400px;
+ margin: 40px auto 0px auto;
+ display: flex;
+ background-color: black;
+    
+}
+
+.skills-box
+{
     box-shadow: 10px 10px gray;
-    background-color:wheat;
-    padding: 20px 30px 10px 30px;
-}
-
-
-
-
-
-.tbox1
-{
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex:1;
     
-
-}
-
-
-
-
-.tbox-title > h2{
-text-align: center;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.webdev-img
-{
- display: block;
- margin-left: auto;
- margin-right: auto;
- max-width: 100px;
-    width: 100%;
-}
-
-.tbox-body > p 
-{
-    
-    font-family:'Courier New', Courier, monospace ;
-
-}
-
-.tbox-footer 
-{
-    font-size: 18px ;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
-/* tbox 2 */
-.tbox2
-{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.tbox2-tittle > h2
-{
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.tbox2-body > p 
-{
-    font-family:'Courier New', Courier, monospace ;
-}
-
-.tbox2-footer 
-{
-    font-size: 18px ;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* tbox 3 */
-.tbox3  {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    /* justify-content: space-around; */
-}
-.tbox3-tittle
-{
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.tbox3-body
-{
-    font-family:'Courier New', Courier, monospace ;
-}
-
-.tbox3-footer
-{
-    font-size: 18px ;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-/* contact style  */
-
-.contact-section
-{
-    display: inline-block;
-    height: 800px;
-    width: 100%;  
-    background-color: #f7f7f7;
-    padding: 10px;
-    
-    
-}
-
-.contact-box
-{
-    width: 100%;
-    display: flex;
-    max-width: 1000px;
     background-color: wheat;
-    outline: 2px solid black;
-    padding:30px; 
-    justify-content: center;
-    align-self: center;
-    
-    
-
+    outline: 2px solid yellow;
 }
+
+
+
+
+
 
