@@ -1,6 +1,7 @@
 html,
 body {
     margin: 0px;
+    background-color: black;
     /* width: 100%; */
 }
 
@@ -72,16 +73,21 @@ EF3A25s */
 
 .mynavbar-content-right a {
     text-decoration: none;
-    color: black;
+    color: #152B4A;
     padding: 12px 20px;
+    transition: .5s;
 }
 
 .mynavbar-content-right a:hover {
-    color: red;
+    /* color:indianred; */
+    outline: 2px solid #152B4A;
+    box-shadow: 5px 5px gray;
+    
 }
 
 .mynavbar-content-right a.active {
-    outline: 2px solid red;
+    outline: 2px solid #152B4A;
+    box-shadow: 5px 5px #152B4A;
 }
 
 
@@ -115,14 +121,20 @@ EF3A25s */
     margin-left: auto;
 }
 
+/* subtitle - text : #1E3D69 */
+/* tittle : #152B4A */
+
+
+
+
 .container-text>h1 {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 65px;
+    color: #152B4A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
 }
 
 .container-text>p {
-    color: black;
+    color: #1E3D69;
     font-size: 45px;
     padding: 20px 0px;
     font-family: 'Courier New', Courier, monospace;
@@ -143,20 +155,49 @@ EF3A25s */
     padding: 30px 0px;
 }
 
+
+.btn-container > div >button{
+    background-color: wheat;
+    box-shadow: 5px 5px gray;
+    outline: 2px solid black;
+    color: #1E3D69;
+    transition: all 1s;
+    
+
+}
+
+.btn-container > div >button:hover{
+    
+    box-shadow: 7px 7px #152B4A;
+    outline: 2px solid black;
+    color: #1E3D69;
+    cursor: pointer;
+    /* background-color: wheat; */
+    
+
+
+}
 .btn-resume {
     padding: 15px 40px;
     border: none;
-    background-color: black;
+    
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     letter-spacing: 0.1em;
+    
 }
+
+
+
+
+
+
 
 .btn-work {
     padding: 15px 29px;
     border: none;
-    background-color: black;
+    
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
@@ -193,23 +234,36 @@ EF3A25s */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 600px;
-    background-color: black;
+    height: 800px;
+    background-color: #f7f7f7;
     justify-content: center;
+    /* padding: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .about-content {
+
+    
     text-align: justify;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
+    flex-wrap: nowrap;
+    max-width: 950px;
     z-index: 10;
+    background-color: wheat;
+    outline: 2px solid black;
+    
+    box-shadow: 10px 10px  gray;
+    
 }
 
 .about-text>h1 {
     font-size: 3em;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color: #152B4A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -219,19 +273,10 @@ EF3A25s */
     color: black;
     font-family: 'Courier New', Courier, monospace;
     line-height: 35px;
+    padding: 20px;
 }
 
-.col-right {
-    position: absolute;
-    width: 100%;
-}
-
-/* .abt-right-col {
-    width: 5px;
-    height: 600px;
-    background-color: red;
-    margin-left: auto;
-} */
+/* tools section  */
 
 .tools-section {
     background-color: #f7f7f7;
@@ -243,6 +288,7 @@ EF3A25s */
     display: flex;
     max-width: 1500px;
     height: 100%;
+    
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -263,13 +309,13 @@ EF3A25s */
 
 
 
-/* tbox 1  */
+
 .tbox1
 {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
-    /* justify-content: center; */
+    
 
 }
 
@@ -312,9 +358,6 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 {
     display: flex;
     flex-direction: column;
-    /* flex-shrink: 1; */
-
-
 }
 
 
@@ -368,38 +411,27 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .contact-section
 {
+    display: inline-block;
+    height: 800px;
+    width: 100%;  
+    background-color: #f7f7f7;
+    padding: 10px;
+    
+    
+}
+
+.contact-box
+{
     width: 100%;
-    height: 600px;
-    background-color: black;
-}
-
-.contact-container
-{
-    
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* padding-top: 30px; */
-    color: blanchedalmond;
-    margin-right: auto;
-    margin-left: auto;
     max-width: 1000px;
+    background-color: wheat;
+    outline: 2px solid black;
+    padding:30px; 
+    justify-content: center;
+    align-self: center;
+    
     
 
 }
-
-.contact-name
-{
-    display: flex;
-    flex-direction:row;
-    
-}
-
-
-
-
-
-
-
-
 
