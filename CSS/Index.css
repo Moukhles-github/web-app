@@ -22,6 +22,7 @@ nav{
     width: 100%;
     background-color: #f7f7f7;
     z-index: 999;
+   
 }
 
 
@@ -68,14 +69,15 @@ nav{
     text-decoration: none;
     color:#1E3D69; 
     padding: 10px 25px;
-    transition: all .5s;
+    transition: box-shadow .5s;
+   
 }
 
 
 .nav-menu > ul > li > a:hover
 {
     outline: 3px solid #1E3D69;
-    box-shadow: 5px 5px black;
+    box-shadow: 7px 7px black;
 }
 
 
@@ -108,6 +110,7 @@ nav{
 }
 
 .intro-title  h1{
+    color: #1E3D69;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     padding: 10px 25px;
@@ -115,6 +118,7 @@ nav{
 }
 
 .intro-title  h2{
+    color: #1E3D69;
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     font-weight: normal;
@@ -124,7 +128,7 @@ nav{
 
 .btn-container
 {
-   text-align center;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px; 
@@ -134,13 +138,29 @@ nav{
 
 .btn-container > button
 {
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: #1E3D69;
+    font-weight: bold;
+    letter-spacing: .1em;
     text-align: center;
-    margin: auto 10px;
-    width: 100px;
+    margin: 10px 20px;
+    width: 150px;
+    outline: 2px solid #1E3D69;
     background-color: wheat;
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     box-shadow: 5px 5px gray;
+    transition: width .1s, padding .1s, box-shadow .5s;
+}
+
+.btn-container > button:hover
+{
+    cursor: pointer;
+    box-shadow: 7px 7px #1E3D69;
+    padding: 15px 25px;
+    width: 170px;
+    /* width: 130px; */
 }
 
 
@@ -158,18 +178,91 @@ nav{
 }
 
 
-.title-arrow-img > img
+.title-arrow-img > a > img
 {
     max-width: 120px;
 }
 
 
 /* --------------------   about section  --------------------- */
-.test > div
+
+.about-page
 {
-    height: 600px;
-    width: 100%;
+    padding: 50px;
 }
+
+
+
+.about-container
+{
+    padding: 25px;
+    display: flex;
+    align-items: center ;
+    margin: auto;
+    max-width: 1400px;
+    background-color: wheat;
+    outline: 2px solid #1E3D69;
+    box-shadow: 10px 10px  gray;
+}
+
+
+.about-portrait
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.about-portrait > h1
+{   
+    color: #1E3D69;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    /* padding: 10px 25px; */
+    text-align: center;
+}
+
+.about-portrait > img{
+    max-width: 450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+.about-skills
+{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-skills > div
+{   
+    line-height: 1.3em;
+    font-size: 1.1em;
+    color: #1E3D69;
+  
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 15px;
+}
+
+
+
+
+
+
+/* social media  */
+
+
+
 
 
 
